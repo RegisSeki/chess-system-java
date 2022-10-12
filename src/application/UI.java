@@ -60,8 +60,7 @@ public class UI {
 	public static void printPiece(ChessPiece piece) {
     	if (piece == null) {
             System.out.print("-");
-        }
-        else {
+        } else {
             if (piece.getColor() == Color.WHITE) {
                 System.out.print(ANSI_WHITE + piece + ANSI_RESET);
             }
